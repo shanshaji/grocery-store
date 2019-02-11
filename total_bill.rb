@@ -1,9 +1,8 @@
-require 'pry'
-require_relative "./billing"
-require_relative "./calculate_total"
-require_relative "./discount_finder"
-require_relative "./apply_discount"
-require_relative "./grand_total"
+require_relative "./src/billing"
+require_relative "./src/calculate_total"
+require_relative "./src/discount_finder"
+require_relative "./src/apply_discount"
+require_relative "./src/grand_total"
 
 class TotalBill
 
